@@ -6,6 +6,13 @@ A powerful Steam plugin for managing game fixes, scripts, and more.
 
 KenTools is a Steam plugin built for the Millennium framework, providing tools for managing game fixes, scripts, and various utilities.
 
+first you need to download Millennium
+# Millennium
+```Powershell
+
+iwr -useb "https://steambrew.app/install.ps1" | iex
+```
+
 ## Installation
 
 1. Extract the plugin to your Steam plugins directory:
@@ -45,22 +52,6 @@ chmod +x build.sh
 ./build.sh kentoolsplugin.zip true
 ```
 
-## Project Structure
-
-```
-KenTools/
-├── backend/          # Python backend code
-│   ├── locales/     # Translation files
-│   └── settings/    # Settings management
-├── public/          # Frontend assets
-│   ├── kentools.js  # Main JavaScript file
-│   └── kentools-icon.png  # Plugin icon (replace with your logo)
-├── scripts/         # Build and validation scripts
-├── plugin.json      # Plugin manifest
-├── requirements.txt # Python dependencies
-└── build.ps1        # Windows build script
-```
-
 ### Requirements
 
 - Python 3.x
@@ -68,11 +59,7 @@ KenTools/
 - httpx==0.27.2
 - requests
 
-### Dependencies
 
-Install Python dependencies:
-```bash
-pip install -r requirements.txt
-```
+
 
 
