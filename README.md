@@ -8,6 +8,9 @@ KenTools is a Steam plugin built for the Millennium framework, providing tools f
 
 first you need to download Millennium
 # Millennium
+
+### Windows (PowerShell)
+
 ```Powershell
 
 iwr -useb "https://steambrew.app/install.ps1" | iex
@@ -58,6 +61,7 @@ chmod +x build.sh
 - Millennium Steam framework
 - httpx==0.27.2
 - requests
+
 
 
 
