@@ -61,21 +61,6 @@ KenTools/
 └── build.ps1        # Windows build script
 ```
 
-## Customization
-
-### Logo/Icon
-
-Replace `public/kentools-icon.png` with your own logo. The recommended size is 64x64 pixels or larger (PNG format).
-
-### Branding
-
-All references to "KenTools" and "kentools" can be customized by:
-1. Updating `plugin.json` (name, common_name, description)
-2. Running the rebranding script (if you create one) or manually replacing strings
-3. Updating the icon file
-
-## Development
-
 ### Requirements
 
 - Python 3.x
@@ -90,18 +75,4 @@ Install Python dependencies:
 pip install -r requirements.txt
 ```
 
-## License
-
-This project is based on LuaTools. Please ensure you comply with any original licensing terms and create your own unique implementation.
-
-## Notes
-
-- Replace `public/kentools-icon.png` with your own logo
-- Update `backend/update.json` with your own GitHub repository if you want auto-updates
-- Customize API endpoints and URLs in `backend/config.py` as needed
-- Review and update locale files in `backend/locales/` for your branding
-
-## Support
-
-For issues and questions, please refer to your project repository.
 
