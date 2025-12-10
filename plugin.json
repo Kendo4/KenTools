@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SteamClientHomebrew/Millennium/main/src/sys/plugin-schema.json",
+  "name": "kentools",
+  "common_name": "KenTools",
+  "description": "KenTools Steam Plugin!",
+  "version": "1.0.0",
+  "include": [
+    "public"
+  ]
+}
+
