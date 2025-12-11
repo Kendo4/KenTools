@@ -34,7 +34,8 @@ iwr -useb "https://steambrew.app/install.ps1" | iex
 - httpx==0.27.2
 - requests
 
-- discord: Http://dsc.gg/kentools
+# for support discord: Http://dsc.gg/kentools
+
 
 
 
